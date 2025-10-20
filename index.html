@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="game-content">
+    
+    <div class="overlay-blur"></div>
+    
+    <div class="alert-screen">
+      <span class="material-symbols-outlined alert-close">close</span>
+      <p>You cannot click these computer buttons, these buttons are unclickable!</p>
+    </div>
+
+    <div class="scoreboard">
+      
+      <div class="player-score">
+        <span class="material-symbols-outlined player-score-icon">person</span>
+        <span class="player-score-text">0</span>
+      </div>
+      
+      <p class="versus-text">VS</p>
+      
+       <div class="computer-score">
+        <span class="computer-score-text">0</span>
+        <span class="material-symbols-outlined computer-score-icon">computer</span>
+      </div>
+      
+    </div>
+    
+    <div class="play-area">
+      <div class="computer-option">
+        <div class="stone-option-computer option-box-computer"><img src="assets/stone.png" alt="" /></div>
+        <div class="paper-option-computer option-box-computer"><img src="assets/paper.png" alt="" /></div>
+        <div class="scissors-option-computer option-box-computer"><img src="assets/scissors.png" alt="" /></div>
+      </div>
+      
+      <p class="computer-choice-text">Computer: Stone</p>
+      <p class="winner-text">You Win!</p>
+      
+      
+      <div class="player-option">
+        <div class="stone-option-player option-box-player"><img src="assets/stone.png" alt="" /></div>
+        <div class="paper-option-player option-box-player"><img src="assets/paper.png" alt="" /></div>
+        <div class="scissors-option-player option-box-player"><img src="assets/scissors.png" alt="" /></div>
+      </div>
+    </div>
+    
+  </div>
+  
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
